@@ -171,7 +171,7 @@
     @apply scroll-smooth;
   }
   body {
-    @apply bg-main font-['poppins', 'sans-serif'] overflow-x-hidden leading-7;
+    @apply bg-main font-['poppins'] overflow-x-hidden leading-7;
   }
   h4 {
     @apply text-xl font-bold tracking-wider text-wText;
