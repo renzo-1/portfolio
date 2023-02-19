@@ -18,7 +18,7 @@ const Navbar = () => {
         <li>
           <a
             className="border-r-2 lg:border-none lg:pr-0 pr-2 hover:text-yText hover:border-yText"
-            href="/#about"
+            href="/portfolio/#about"
           >
             About
           </a>
@@ -26,7 +26,7 @@ const Navbar = () => {
         <li>
           <a
             className="border-r-2 lg:border-none lg:pr-0 pr-2 hover:text-yText hover:border-yText"
-            href="/#webprojects"
+            href="/portfolio/#webprojects"
           >
             Web Projects
           </a>
@@ -34,7 +34,7 @@ const Navbar = () => {
         <li>
           <a
             className="border-r-2 lg:border-none lg:pr-0 pr-2 hover:text-yText hover:border-yText"
-            href="/#contacts"
+            href="/portfolio/#contacts"
           >
             Contacts
           </a>
