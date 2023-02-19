@@ -12,13 +12,13 @@ const Projects = () => {
           desc="A small e-commerce web application for customized clothing prints."
           tags={["Full-stack", "Web designer"]}
           tools="Tailwind, Figma, PassportJS, Cloudinary"
-          vid="/assets/printeerest/printeerest-vid1.mp4"
+          vid="assets/printeerest/printeerest-vid1.mp4"
           feats={[
-            "/assets/printeerest/home.png",
-            "/assets/printeerest/sign-in.png",
-            "/assets/printeerest/sign-up.png",
-            "/assets/printeerest/order.png",
-            "/assets/printeerest/delivery-add.png",
+            "assets/printeerest/home.png",
+            "assets/printeerest/sign-in.png",
+            "assets/printeerest/sign-up.png",
+            "assets/printeerest/order.png",
+            "assets/printeerest/delivery-add.png",
           ]}
         />
         <Project
@@ -26,12 +26,12 @@ const Projects = () => {
           title="MessageHub"
           desc="A real-time messaging full-stack web application."
           tags={["Full-stack", "Web designer"]}
-          vid="/assets/messagehub/vid.mp4"
+          vid="assets/messagehub/vid.mp4"
           tools="Tailwind, Figma, PassportJS, Cloudinary"
           feats={[
-            "/assets/messagehub/sign-in.png",
-            "/assets/messagehub/sign-up.png",
-            "/assets/messagehub/messaging.png",
+            "assets/messagehub/sign-in.png",
+            "assets/messagehub/sign-up.png",
+            "assets/messagehub/messaging.png",
           ]}
         />
       </div>
