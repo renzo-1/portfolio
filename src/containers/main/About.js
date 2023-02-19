@@ -1,6 +1,8 @@
 import React from "react";
 import { useInView } from "react-intersection-observer";
 import Coding from "../../components/Coding";
+import diamondCorner from "../../assets/diamond-corner.svg";
+
 const About = () => {
   const { ref: ref1, inView: inView1 } = useInView({ triggerOnce: true });
   const { ref: ref2, inView: inView2 } = useInView({ triggerOnce: true });
@@ -15,8 +17,8 @@ const About = () => {
       </div>
       <img
         className="w-full max-w-[200px] absolute -z-10 right-0 top-20"
-        src="assets/diamond-corner.svg"
-        alt="coding"
+        src={diamondCorner}
+        alt="diamond-corner"
       ></img>
       <div
         ref={ref2}

@@ -1,38 +1,51 @@
 import React from "react";
 import Project from "../../components/Project";
-
+import {
+  homePrint,
+  signInPrint,
+  signUpPrint,
+  orderPrint,
+  deliveryPrint,
+  printCover,
+  printVid,
+} from "../../assets/printeerest";
+import {
+  mhCover,
+  messaging,
+  mhSignIn,
+  mhSignUp,
+  mhVid,
+} from "../../assets/messagehub";
 const Projects = () => {
   return (
     <section id="webprojects" className="space-y-7">
       <h2>Projects</h2>
       <div className="space-y-16">
         <Project
-          cover={"bg-printeerest_cover"}
+          cover={printCover}
           title="Printeerest"
           desc="A small e-commerce web application for customized clothing prints."
           tags={["Full-stack", "Web designer"]}
+          githubLink="#"
           tools="Tailwind, Figma, PassportJS, Cloudinary"
-          vid="assets/printeerest/printeerest-vid1.mp4"
+          vid={printVid}
           feats={[
-            "assets/printeerest/home.png",
-            "assets/printeerest/sign-in.png",
-            "assets/printeerest/sign-up.png",
-            "assets/printeerest/order.png",
-            "assets/printeerest/delivery-add.png",
+            homePrint,
+            signInPrint,
+            signUpPrint,
+            orderPrint,
+            deliveryPrint,
           ]}
         />
         <Project
-          cover={"bg-messageHub_cover"}
+          cover={mhCover}
           title="MessageHub"
           desc="A real-time messaging full-stack web application."
+          githubLink="https://github.com/renzo-1/MessageHub"
           tags={["Full-stack", "Web designer"]}
-          vid="assets/messagehub/vid.mp4"
+          vid={mhVid}
           tools="Tailwind, Figma, PassportJS, Cloudinary"
-          feats={[
-            "assets/messagehub/sign-in.png",
-            "assets/messagehub/sign-up.png",
-            "assets/messagehub/messaging.png",
-          ]}
+          feats={[messaging, mhSignIn, mhSignUp]}
         />
       </div>
     </section>

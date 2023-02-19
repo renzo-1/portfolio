@@ -1,5 +1,6 @@
 import React from "react";
 import { useInView } from "react-intersection-observer";
+import verticalLines from "../../assets/ver-lines.svg";
 
 const Technologies = () => {
   const { ref: ref5, inView: inView5 } = useInView({ triggerOnce: true });
@@ -25,12 +26,12 @@ const Technologies = () => {
       </div>
       <img
         className="w-full max-w-[20px] absolute -z-10 right-0 top-24"
-        src="assets/ver-lines.svg"
+        src={verticalLines}
         alt="coding"
       ></img>
       <img
         className="w-full max-w-[20px] absolute -z-10 left-0 bottom-10 rotate-180"
-        src="assets/ver-lines.svg"
+        src={verticalLines}
         alt="coding"
       ></img>
     </section>

@@ -1,6 +1,7 @@
 import React from "react";
 import Coding from "../../components/Coding";
 import { useInView } from "react-intersection-observer";
+import arrowDown from "../../assets/arrow-down.svg";
 
 const Hero = () => {
   const { ref: ref1, inView: inView1 } = useInView({ triggerOnce: true });
@@ -95,7 +96,7 @@ const Hero = () => {
             } border rounded-full h-10 w-10 border-yText animate-bounce grid place-items-center`}
           >
             <img
-              src="assets/arrow-down.svg"
+              src={arrowDown}
               alt="arrow down"
               className="w-5 pt-1 fill-current stroke-yellow-400"
             ></img>

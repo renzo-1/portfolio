@@ -10,12 +10,6 @@ module.exports = {
         bText: "#272D32",
         yText: "#FFC93D",
       },
-      backgroundImage: {
-        printeerest_cover:
-          "url('../public/assets/printeerest/printeerestCover.png')",
-        messageHub_cover:
-          "url('../public/assets/messagehub/messageHubCover.png')",
-      },
     },
   },
   plugins: [],
