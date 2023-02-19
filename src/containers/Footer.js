@@ -12,7 +12,7 @@ const Footer = () => {
         Explore new opportunities with me
       </h3>
       <div className="lg:container mx-auto border rounded-lg border-bText flex justify-center items-center flex-col py-7">
-        <p className="text-bText">Renzo.Arceo@gmail.com</p>
+        <p className="text-bText">renzosarceo@gmail.com</p>
         <div className="flex space-x-3 mt-4">
           <a target="_blank" rel="noreferrer" href="https://github.com/renzo-1">
             <img src={github} className="w-7" alt="github icon"></img>
