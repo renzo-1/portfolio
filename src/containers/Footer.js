@@ -12,8 +12,20 @@ const Footer = () => {
       <div className="lg:container mx-auto border rounded-lg border-bText flex justify-center items-center flex-col py-7">
         <p className="text-bText">Renzo.Arceo@gmail.com</p>
         <div className="flex space-x-3 mt-4">
-          <img src="assets/github.svg" className="w-7" alt="github icon"></img>
-          <img src="assets/linkedin.svg" className="w-7" alt="linkedin"></img>
+          <a target="_blank" rel="noreferrer" href="https://github.com/renzo-1">
+            <img
+              src="assets/github.svg"
+              className="w-7"
+              alt="github icon"
+            ></img>
+          </a>
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href="https://www.linkedin.com/in/lorenzo-a-90076a214/"
+          >
+            <img src="assets/linkedin.svg" className="w-7" alt="linkedin"></img>
+          </a>
         </div>
       </div>
     </footer>

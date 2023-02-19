@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import { useInView } from "react-intersection-observer";
 import Coding from "../../components/Coding";
 const About = () => {
