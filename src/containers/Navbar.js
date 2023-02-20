@@ -13,11 +13,11 @@ const Navbar = () => {
     >
       <ul
         ref={ref2}
-        className="space-y-2 lg:space-y-0 lg:space-x-7 text-wText tracking-wider lg:flex items-center justify-center"
+        className="space-y-2 lg:space-y-0 lg:space-x-7 text-MyWhite tracking-wider lg:flex items-center justify-center"
       >
         <li>
           <a
-            className="border-r-2 lg:border-none lg:pr-0 pr-2 hover:text-yText hover:border-yText"
+            className="border-r-2 lg:border-none lg:pr-0 pr-2 hover:text-MyYellow hover:border-MyYellow"
             href="/portfolio/#about"
           >
             About
@@ -25,7 +25,7 @@ const Navbar = () => {
         </li>
         <li>
           <a
-            className="border-r-2 lg:border-none lg:pr-0 pr-2 hover:text-yText hover:border-yText"
+            className="border-r-2 lg:border-none lg:pr-0 pr-2 hover:text-MyYellow hover:border-MyYellow"
             href="/portfolio/#webprojects"
           >
             Web Projects
@@ -33,7 +33,7 @@ const Navbar = () => {
         </li>
         <li>
           <a
-            className="border-r-2 lg:border-none lg:pr-0 pr-2 hover:text-yText hover:border-yText"
+            className="border-r-2 lg:border-none lg:pr-0 pr-2 hover:text-MyYellow hover:border-MyYellow"
             href="/portfolio/#contacts"
           >
             Contacts

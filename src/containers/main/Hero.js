@@ -89,11 +89,11 @@ const Hero = () => {
       <div className="self-center absolute left-1/2 top-[90%] transform -translate-x-1/2 -translate-y-1/2">
         <div>
           <a
-            href="/#about"
+            href="/portfolio/#about"
             style={{ animationDelay: ".4s" }}
             className={`${
               inView1 && "fade-up"
-            } border rounded-full h-10 w-10 border-yText animate-bounce grid place-items-center`}
+            } border rounded-full h-10 w-10 border-MyYellow animate-bounce grid place-items-center`}
           >
             <img
               src={arrowDown}

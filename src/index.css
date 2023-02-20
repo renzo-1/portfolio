@@ -30,12 +30,21 @@
     transform: translateY(-10px);
   }
 }
-
-.hand {
-  animation: typing 0.5s linear alternate infinite;
+.hand-typing {
+  animation: typing 3s linear alternate infinite backwards;
 }
-.eyes {
-  animation: eyeMove 5s ease-in-out alternate infinite;
+
+.eye-typing {
+  animation: typing 3s linear alternate infinite backwards;
+}
+
+@keyframes typing {
+  from {
+    transform: translateX(-2.5px);
+  }
+  to {
+    transform: translateX(2.5px);
+  }
 }
 .drink {
   animation: fall-down 1s cubic-bezier(0.42, 0, 0.31, 0.93) 1s backwards,
@@ -91,14 +100,6 @@
     blinker 1s steps(24, end) infinite;
 }
 
-@keyframes typing {
-  50% {
-    transform: translate(-2%, -1%);
-  }
-  75% {
-    transform: translate(1%, -1%);
-  }
-}
 @keyframes typewriter {
   50% {
     left: 100%;
@@ -160,37 +161,42 @@
   border-radius: 100vh;
 }
 
+.dark-scrollbar-thumb::-webkit-scrollbar-thumb {
+  background: #272d32;
+  border-radius: 100vh;
+}
+
 *::-webkit-scrollbar-thumb:hover {
   background: #a1a1a1;
 }
 
 @layer base {
-  * {
+  body * {
     @apply scroll-smooth;
   }
   body {
     @apply bg-main font-['poppins'] overflow-x-hidden leading-7;
   }
   h4 {
-    @apply text-xl font-bold tracking-wider text-wText;
+    @apply text-xl font-bold tracking-wider text-MyWhite;
   }
   h3 {
-    @apply text-2xl lg:text-4xl text-wText;
+    @apply text-2xl lg:text-4xl text-MyWhite;
   }
   h2 {
-    @apply text-lg lg:text-3xl text-yText font-bold tracking-wider;
+    @apply text-lg lg:text-3xl text-MyYellow font-bold tracking-wider;
   }
   h1 {
-    @apply text-8xl lg:text-9xl xl:text-[12rem] text-yText;
+    @apply text-8xl lg:text-9xl xl:text-[12rem] text-MyYellow;
   }
   p {
-    @apply lg:text-lg text-wText tracking-wider max-w-[500px] lg:max-w-[700px];
+    @apply lg:text-lg text-MyWhite tracking-wider max-w-[500px] lg:max-w-[700px];
   }
   b {
-    @apply text-wText font-bold tracking-wider;
+    @apply text-MyWhite font-bold tracking-wider;
   }
   .role {
-    @apply hover:text-main hover:bg-wText hover:scale-[0.9] transition-all duration-200 ease-out;
+    @apply hover:text-main hover:bg-MyWhite hover:scale-[0.9] transition-all duration-200 ease-out;
   }
   .dilate-onHover {
     @apply hover:scale-[1.1] transition-all duration-200 ease-out z-20;

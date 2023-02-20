@@ -8,7 +8,9 @@ import {
   deliveryPrint,
   printCover,
   printVid,
+  available,
 } from "../../assets/printeerest";
+
 import {
   mhCover,
   messaging,
@@ -16,6 +18,7 @@ import {
   mhSignUp,
   mhVid,
 } from "../../assets/messagehub";
+
 const Projects = () => {
   return (
     <section id="webprojects" className="space-y-7">
@@ -33,6 +36,7 @@ const Projects = () => {
             homePrint,
             signInPrint,
             signUpPrint,
+            available,
             orderPrint,
             deliveryPrint,
           ]}
@@ -40,7 +44,7 @@ const Projects = () => {
         <Project
           cover={mhCover}
           title="MessageHub"
-          desc="A real-time messaging full-stack web application."
+          desc="A real-time messaging web application."
           githubLink="https://github.com/renzo-1/MessageHub"
           tags={["Full-stack", "Web designer"]}
           vid={mhVid}

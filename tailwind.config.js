@@ -6,9 +6,9 @@ module.exports = {
       colors: {
         main: "#272D32",
         second: "#303941",
-        wText: "#f9f9f9",
-        bText: "#272D32",
-        yText: "#FFC93D",
+        MyWhite: "#f9f9f9",
+        MyBlack: "#272D32",
+        MyYellow: "#FFC93D",
       },
     },
   },
