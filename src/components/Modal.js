@@ -10,7 +10,7 @@ const Modal = ({
   githubLink,
 }) => {
   return (
-    <div className="dark-scrollbar-thumb h-screen w-full space-y-10 fixed top-0 left-0 bottom-0 bg-MyWhite flex flex-col items-center p-14 overflow-y-scroll z-[9999]">
+    <div className="dark-scrollbar-thumb h-screen w-full space-y-10 fixed top-0 left-0 bottom-0 bg-MyWhite flex flex-col items-center p-8 overflow-y-scroll z-[9999]">
       <img
         className="w-7 cursor-pointer "
         src={exitButton}
@@ -22,7 +22,7 @@ const Modal = ({
           autoPlay
           muted
           loop
-          className="w-full max-w-[500px] lg:max-w-[1000px] shadow-lg rounded-lg"
+          className="w-full max-w-[600px] lg:max-w-[1000px] shadow-lg rounded-lg"
         >
           <source src={vid} type="video/mp4" />
         </video>
@@ -41,14 +41,14 @@ const Modal = ({
             </div>
             <p className="text-MyBlack">{desc} </p>
             <p className="text-MyBlack">
-              <b className="text-MyBlack">Other tools</b>: {tools}
+              <b className="text-MyBlack">Developed using: </b> {tools}
             </p>
           </div>
           <section className="flex justify-center items-center">
             <div className="space-y-7 ">
               {feats.map((feat) => (
                 <img
-                  className="w-full max-w-[500px] lg:max-w-[1000px] shadow-lg rounded-lg"
+                  className="w-full max-w-[600px] lg:max-w-[1000px] shadow-lg rounded-lg"
                   src={feat}
                   alt={`${title} features`}
                 ></img>

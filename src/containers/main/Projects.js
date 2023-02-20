@@ -27,10 +27,10 @@ const Projects = () => {
         <Project
           cover={printCover}
           title="Printeerest"
-          desc="A small e-commerce web application for customized clothing prints."
+          desc="A small e-commerce web application for customized clothing prints. Features include authentication, responsiveness, creating and editing of permanent delivery address, and tracking of orders."
           tags={["Full-stack", "Web designer"]}
           githubLink="#"
-          tools="Tailwind, Figma, PassportJS, Cloudinary"
+          tools="MongoDB,Express, Node, React, Tailwind, Figma, PassportJS, Cloudinary"
           vid={printVid}
           feats={[
             homePrint,
@@ -44,11 +44,11 @@ const Projects = () => {
         <Project
           cover={mhCover}
           title="MessageHub"
-          desc="A real-time messaging web application."
+          desc="A real-time messaging web application. Features include authentication, adding contacts, and deleting conversations."
           githubLink="https://github.com/renzo-1/MessageHub"
           tags={["Full-stack", "Web designer"]}
           vid={mhVid}
-          tools="Tailwind, Figma, PassportJS, Cloudinary"
+          tools="MongoDB,Express, Node, React, Tailwind, Figma, PassportJS, Socket IO"
           feats={[messaging, mhSignIn, mhSignUp]}
         />
       </div>

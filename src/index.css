@@ -171,7 +171,7 @@
 }
 
 @layer base {
-  body * {
+  html {
     @apply scroll-smooth;
   }
   body {
