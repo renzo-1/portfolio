@@ -36,10 +36,10 @@ const Project = ({
         <img
           src={cover}
           alt="project cover"
-          className={`w-full h-[200px] lg:h-[200px] lg:w-[700px] rounded-lg object-cover drop-shadow-lg cursor-pointer dilate-onHover `}
+          className={`w-full h-[200px] lg:h-[250px] lg:w-[700px] rounded-lg object-cover drop-shadow-lg cursor-pointer dilate-onHover `}
           onClick={(e) => setOpenModal(true)}
         ></img>
-        <div className="space-y-3">
+        <div className="space-y-3 lg:space-y-5">
           <div className="flex items-center space-x-5">
             <h4 className="text-xl font-bold tracking-wider text-MyWhite inline-block">
               {title}
