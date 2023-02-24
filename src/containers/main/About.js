@@ -26,9 +26,8 @@ const About = () => {
       >
         <h2>About me</h2>
         <p>
-          I’m Renzo Arceo, and
-          <b> I’m passionate in web development and design</b>. I aim to create
-          websites that people can interact and love.
+          I’m Renzo Arceo. I’m passionate in web development and design. I aim
+          to create websites that people can interact and love.
         </p>
         <p>
           Art and technology has been an interest of mine since I was growing up

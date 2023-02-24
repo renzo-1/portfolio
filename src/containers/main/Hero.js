@@ -20,7 +20,7 @@ const Hero = () => {
         >
           <div className="space-y-4">
             <p className="role border rounded-xl border-second p-2 w-fit">
-              Full-stack Web Developer
+              Full-Stack Web Developer
             </p>
             <p className="role border rounded-xl border-second p-2 w-fit">
               Web Designer

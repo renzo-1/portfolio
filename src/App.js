@@ -1,6 +1,4 @@
-// import Main from "./pages/Main";
-// import Design from "./pages/Design";
-// import { BrowserRouter, Routes, Route } from "react-router-dom";
+import React from "react";
 import Navbar from "./containers/Navbar";
 import Footer from "./containers/Footer";
 import { Hero, About, Technologies, Projects } from "./containers/main";
