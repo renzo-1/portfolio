@@ -29,7 +29,7 @@ const Projects = () => {
         <Project
           cover={printCover}
           title="Printeerest"
-          desc="A small e-commerce web application for customized clothing prints. Features include authentication, responsiveness, creating and editing of permanent delivery address, and tracking of orders."
+          desc="An e-commerce web application designed for personalized clothing prints and is equipped with various features, such as secure authentication, responsiveness for optimal user experience, the ability to create and modify permanent delivery addresses, and a convenient order tracking system."
           tags={["Full-Stack", "Web Design"]}
           githubLink="#"
           tools="MongoDB, Express, Node, React, Tailwind, Figma, PassportJS, Cloudinary"
@@ -46,7 +46,7 @@ const Projects = () => {
         <Project
           cover={mhCover}
           title="MessageHub"
-          desc="A real-time messaging web application. Features include authentication, adding contacts, and deleting conversations."
+          desc="A web application for real-time messaging that comes with several features, such as authentication to ensure secure access, the ability to add contacts, and the option to delete conversations."
           githubLink="https://github.com/renzo-1/MessageHub"
           tags={["Full-Stack", "Web Design"]}
           vid={mhVid}
@@ -56,7 +56,7 @@ const Projects = () => {
         <Project
           cover={tohLanding}
           title="Tower of Hanoi"
-          desc="Tower of hanoi game which is able to record number of moves and adjust number of discs."
+          desc="The goal of the web-based Tower of Hanoi game is to arrange the discs in a stacked formation with the largest disc at the bottom and the smallest disc at the top. Achieving the objective of the game involves minimizing the number of moves taken to achieve the final form."
           githubLink="https://github.com/renzo-1/tower-of-hanoi"
           live="https://renzo-1.github.io/tower-of-hanoi/"
           tags={["Front-End", "Web Design"]}

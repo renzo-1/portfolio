@@ -32,11 +32,11 @@ const Project = ({
           githubLink={githubLink}
         />
       )}
-      <div className="space-y-7 lg:flex lg:space-x-20">
+      <div className="space-y-7 lg:space-y-0 lg:flex lg:space-x-20">
         <img
           src={cover}
           alt="project cover"
-          className={`w-full h-[200px] lg:h-[250px] lg:w-[700px] rounded-lg object-cover drop-shadow-lg cursor-pointer dilate-onHover `}
+          className={`w-full h-[200px] lg:h-[350px] lg:max-w-[700px] rounded-lg object-cover drop-shadow-lg cursor-pointer dilate-onHover `}
           onClick={(e) => setOpenModal(true)}
         ></img>
         <div className="space-y-3 lg:space-y-5">
